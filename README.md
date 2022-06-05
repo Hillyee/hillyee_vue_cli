@@ -53,3 +53,9 @@ yee addstore home
 yee addstore home -d src/vuex/modules 
 # 会在src/vuex/modules/home目录创建index.ts和types.ts
 ```
+
+#### 查看所有选项
+```shell
+yee --help
+
+```
