@@ -1,6 +1,6 @@
 {
   "name": "hillyee_vue_cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,7 @@
   ],
   "author": "hillyee",
   "license": "MIT",
-  "homepage": "https://github.com/hillyee",
+  "homepage": "https://github.com/Hillyee/hillyee_vue_cli",
   "repository": {
     "type": "git",
     "url": "https://github.com/Hillyee/hillyee_vue_cli"

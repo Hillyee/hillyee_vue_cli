@@ -13,7 +13,8 @@ npm install hillyee_vue_cli -g
 ```shell
 yee create projectname
 ```
-> 项目使用 vue3 + ts的模板
+> 项目使用 vue3 + ts + vite 的模板
+>
 > github仓库：https://github.com/Hillyee/yee_vue3_temp.git
 
 ### 查看所有选项
@@ -128,11 +129,11 @@ export default {
 yee addstore YourVuexModuleName 
 # 例如
 yee addstore home
-# 默认在src/store/modules/home目录创建index.ts和types.ts
+# 默认在src/store/home目录创建home.ts和types.ts
 
 # 也可以指定文件夹
-yee addstore home -d src/vuex/modules 
-# 会在src/vuex/modules/home目录创建index.ts和types.ts
+yee addstore home -d src/vuex
+# 会在src/vuex/home目录创建home.ts和types.ts
 ```
 
 结构如下：
@@ -185,7 +186,7 @@ npm run dev # 启动项目
 2. 如果 create 项目的时候报错：`'git clone' failed with status 1`，模板已 clone下来
 
 ```shell
+cd YourProjectName
 npm install # 下载依赖
 npm run dev # 启动项目
 ```
-
