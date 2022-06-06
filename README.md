@@ -183,7 +183,7 @@ npm install # 下载依赖
 npm run dev # 启动项目
 ```
 
-2. 如果 create 项目的时候报错：`'git clone' failed with status 1`，模板已 clone下来
+2. 如果 create 项目的时候报错： `'git checkout' failed with status 1`，模板已 clone下来
 
 ```shell
 cd YourProjectName
