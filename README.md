@@ -1,14 +1,14 @@
-## 说明文档
+# 说明文档
 
-### 一个帮助你快速搭建和开发前端项目的CLI
+## 一个帮助你快速搭建和开发前端项目的CLI
 
-#### 如何安装脚手架？
+### 如何安装脚手架？
 
 ```shell
 npm install hillyee_vue_cli -g
 ```
 
-#### 创建项目
+### 创建项目
 
 ```shell
 yee create projectname
@@ -16,15 +16,15 @@ yee create projectname
 > 项目使用 vue3 + ts的模板
 > github仓库：https://github.com/Hillyee/yee_vue3_temp.git
 
-#### 查看所有选项
+### 查看所有选项
 
 ```shell
 yee --help
 ```
 
-#### 项目开发
+### 项目开发
 
-##### 1. 创建组件
+#### 1. 创建组件
 
 ```shell
 yee addcpn ComponentName # 默认存放到src/components目录下
@@ -62,7 +62,7 @@ defineExpose({
 </style>
 ```
 
-##### 2. 创建Vue页面，并配置路由
+#### 2. 创建Vue页面，并配置路由
 
 ```shell
 yee addpage PageName 
@@ -122,7 +122,7 @@ export default {
 }
 ```
 
-##### 3. 创建Vuex子模块
+#### 3. 创建Vuex子模块
 
 ```shell
 yee addstore YourVuexModuleName 
@@ -188,3 +188,4 @@ npm run dev # 启动项目
 npm install # 下载依赖
 npm run dev # 启动项目
 ```
+
